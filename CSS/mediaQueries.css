@@ -1,0 +1,16 @@
+@media screen and (max-width: 769px) {
+	.logo-navbutton {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 95vw;
+	}
+	.navButton {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.navigationLinks {
+		display: none;
+	}
+}
