@@ -8,6 +8,11 @@
 	src: url("../Font/AquireLight-YzE0o.otf") format("woff");
 }
 
+@font-face {
+	font-family: "Beon";
+	src: url("../Font/BeonMedium-6d51.otf");
+}
+
 body.active {
 	overflow: hidden;
 }
@@ -29,18 +34,16 @@ hr {
 }
 
 .logo a {
-	font-family: "Aquire";
+	font-family: "Aquire" !important;
 }
 
 .navigation {
 	z-index: 100;
 }
 
-.navigationLinks ul li {
-}
-
 .navigationLinks a {
-	font-family: "Aquire-Light";
+	/*font-family: "Aquire-Light";*/
+	font-family: "Beon";
 	transition: 200ms;
 }
 
