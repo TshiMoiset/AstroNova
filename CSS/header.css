@@ -29,37 +29,18 @@ hr {
 }
 
 .logo a {
-	font-size: 1.9rem;
-	cursor: pointer;
-	transition: 500ms;
 	font-family: "Aquire";
-	text-decoration: none;
-	color: white;
 }
 
 .navigation {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 10px 20px;
-	width: 98vw;
-	height: 7vh;
-	font-size: larger;
-	position: fixed;
-	transition: 300ms;
 	z-index: 100;
 }
 
 .navigationLinks ul li {
-	display: inline;
-	margin: 0 20px;
 }
 
 .navigationLinks a {
 	font-family: "Aquire-Light";
-	font-size: 1.1rem;
-	color: white;
-	text-decoration: none;
 	transition: 200ms;
 }
 
