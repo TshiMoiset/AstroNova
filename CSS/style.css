@@ -13,3 +13,28 @@ body {
 ::-webkit-scrollbar {
 	width: 0;
 }
+
+@font-face {
+	font-family: "Aquire";
+	src: url("../Font/Aquire-BW0ox.otf") format("woff");
+}
+
+@font-face {
+	font-family: "Aquire-Light";
+	src: url("../Font/AquireLight-YzE0o.otf") format("woff");
+}
+
+@font-face {
+	font-family: "Beon";
+	src: url("../Font/BeonMedium-6d51.otf");
+}
+
+@font-face {
+	font-family: "Exodar";
+	src: url("../Font/ExodarOutline-9Yy27.ttf");
+}
+
+@font-face {
+	font-family: "Inertia";
+	src: url("../Font/Inertia.otf");
+}

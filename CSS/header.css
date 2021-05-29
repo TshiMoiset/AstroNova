@@ -1,27 +1,15 @@
-@font-face {
-	font-family: "Aquire";
-	src: url("../Font/Aquire-BW0ox.otf") format("woff");
-}
-
-@font-face {
-	font-family: "Aquire-Light";
-	src: url("../Font/AquireLight-YzE0o.otf") format("woff");
-}
-
-@font-face {
-	font-family: "Beon";
-	src: url("../Font/BeonMedium-6d51.otf");
-}
-
 body.active {
 	overflow: hidden;
 }
 
 header {
-	color: white;
 	z-index: 10;
 	transition: 500ms;
 	z-index: 100;
+}
+
+header a {
+	color: white;
 }
 
 hr {
@@ -34,7 +22,10 @@ hr {
 }
 
 .logo a {
-	font-family: "Aquire" !important;
+	/*font-family: "Aquire" !important;*/
+	/*font-family: "Exodar" !important;*/
+	font-family: "Inertia" !important;
+	font-size: larger;
 }
 
 .navigation {
