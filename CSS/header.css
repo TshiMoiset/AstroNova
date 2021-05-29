@@ -22,8 +22,6 @@ hr {
 }
 
 .logo a {
-	/*font-family: "Aquire" !important;*/
-	/*font-family: "Exodar" !important;*/
 	font-family: "Inertia" !important;
 	font-size: larger;
 }
@@ -33,7 +31,6 @@ hr {
 }
 
 .navigationLinks a {
-	/*font-family: "Aquire-Light";*/
 	font-family: "Beon";
 	transition: 200ms;
 }
@@ -81,7 +78,7 @@ hr {
 .closeButton {
 	font-size: 1.3em;
 	cursor: pointer;
-	color: black;
+	color: white;
 	text-align: right;
 	position: absolute;
 	top: 2%;
