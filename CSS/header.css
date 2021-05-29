@@ -17,7 +17,7 @@ hr {
 	height: 2px;
 	border-width: 0;
 	border-style: solid;
-	background-color: #ccc;
+	background-color: white;
 	text-align: center;
 }
 
@@ -35,7 +35,6 @@ hr {
 }
 
 .navigation li {
-	color: white;
 	list-style: none;
 }
 
@@ -102,4 +101,17 @@ hr {
 	position: absolute;
 	top: 2%;
 	right: 5%;
+}
+
+.hoverLine::after {
+	content: "";
+	display: block;
+	width: 0%;
+	height: 2px;
+	background-color: #fff;
+	transition: 300ms;
+}
+
+.hoverLine:hover::after {
+	width: 100%;
 }
