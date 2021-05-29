@@ -14,38 +14,36 @@
 
 </head>
 <body>
-    <header>
-        <header>
-			<div class="navigation" id="header">
-				<div class="navButton" id="navButton" onclick="openNavbar()">&#9776;</div>
-				<nav class="navigationLinks">
+	<header>
+		<div class="navigation" id="header">
+			<div class="navButton" id="navButton" onclick="openNavbar()">&#9776;</div>
+			<nav class="navigationLinks">
+				<ul>
+					<li><a href="#" class="hoverLine">Mission</a></li>
+					<li><a href="#" class="hoverLine">Launch</a></li>
+					<div class="logo"><li><a href="index.html">Exonova</a></li></div>
+					<li><a href="#" class="hoverLine">Spacecraft</a></li>
+					<li><a href="#" class="hoverLine">About</a></li>
+				</ul>
+			</nav>
+
+			<div class="hamburgerNav" id="hamburgerNavbarLinks">
+				<div class="closeButton" id="closeButton" onclick="closeNavbar()">&#10006;</div>
+
+				<div class="hamburgerNavContent">
 					<ul>
-						<li><a href="#" class="hoverLine">Mission</a></li>
-                        <li><a href="#" class="hoverLine">Launch</a></li>
-						<div class="logo"><li><a href="index.html">Exonova</a></li></div>
-                        <li><a href="#" class="hoverLine">Spacecraft</a></li>
-                        <li><a href="#" class="hoverLine">About</a></li>
+						<li><a href="#">Mission</a></li>
+						<hr />
+						<li><a href="#">Launch</a></li>
+						<hr />
+						<li><a href="#">Spacecraft</a></li>
+						<hr />
+						<li><a href="#">About</a></li>
+						<hr>
 					</ul>
-				</nav>
-
-				<div class="hamburgerNav" id="hamburgerNavbarLinks">
-					<div class="closeButton" id="closeButton" onclick="closeNavbar()">&#10006;</div>
-
-					<div class="hamburgerNavContent">
-						<ul>
-							<li><a href="#">Mission</a></li>
-							<hr />
-							<li><a href="#">Launch</a></li>
-							<hr />
-							<li><a href="#">Spacecraft</a></li>
-							<hr />
-							<li><a href="#">About</a></li>
-                            <hr>
-						</ul>
-					</div>
 				</div>
 			</div>
-		</header>
-    </header>
+		</div>
+	</header>
 </body>
 </html>
