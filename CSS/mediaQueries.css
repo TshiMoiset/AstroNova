@@ -1,13 +1,14 @@
 @media screen and (max-width: 769px) {
-	.logo-navbutton {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		width: 95vw;
+	header {
+		padding: 10px 15px;
 	}
+
 	.navButton {
 		display: flex;
-		justify-content: space-between;
+	}
+
+	.screenLogo-NavButton {
+		display: flex;
 	}
 
 	.navigationLinks {
