@@ -14,4 +14,8 @@
 	.navigationLinks {
 		display: none;
 	}
+
+	.hamburgerNav {
+		border-left: white solid 1px;
+	}
 }

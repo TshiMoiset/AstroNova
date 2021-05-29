@@ -76,7 +76,7 @@ header {
 	display: none;
 	justify-content: left;
 	position: fixed;
-	border-left: white solid 2px;
+
 	z-index: 1;
 	background-color: black;
 	top: 0%;
