@@ -2,16 +2,6 @@ body.active {
 	overflow: hidden;
 }
 
-header {
-	z-index: 10;
-	transition: 500ms;
-	z-index: 100;
-}
-
-header a {
-	color: white;
-}
-
 hr {
 	margin: 10px;
 	height: 2px;
@@ -19,6 +9,10 @@ hr {
 	border-style: solid;
 	background-color: white;
 	text-align: center;
+}
+
+header {
+	padding: 20px;
 }
 
 .logo a {
@@ -51,6 +45,7 @@ hr {
 	text-decoration: none;
 	font-size: 1.3rem;
 	transition: 200ms;
+	color: white;
 }
 
 .navButton {
