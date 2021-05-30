@@ -18,6 +18,13 @@
 	.hamburgerNav {
 		border-left: white solid 1px;
 	}
+
+	.screenLogo-NavButton {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 96%;
+	}
 }
 
 @media screen and (max-width: 541px) {

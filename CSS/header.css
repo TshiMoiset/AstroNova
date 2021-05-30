@@ -38,7 +38,7 @@ header {
 }
 
 .screenLogo-NavButton {
-	display: flex;
+	display: none;
 	justify-content: space-between;
 	align-items: center;
 	width: 96%;
