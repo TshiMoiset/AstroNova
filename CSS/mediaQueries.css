@@ -19,3 +19,15 @@
 		border-left: white solid 1px;
 	}
 }
+
+@media screen and (max-width: 541px) {
+	.screenLogo-NavButton {
+		width: 95%;
+	}
+}
+
+@media screen and (max-width: 426px) {
+	.screenLogo-NavButton {
+		width: 93%;
+	}
+}
