@@ -21,8 +21,6 @@ function closeNavbar() {
     document.getElementById("navButton").style.display = "none"; 
     document.querySelector("body").classList.toggle("active");
 
-  
-    
     if (x.matches) {
         document.getElementById("navButton").style.display = "flex";
         
@@ -32,3 +30,4 @@ function closeNavbar() {
         document.getElementById("navButton").style.display = "none";
     }
 }
+
