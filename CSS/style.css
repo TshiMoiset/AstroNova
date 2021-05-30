@@ -11,7 +11,17 @@ body {
 }
 
 ::-webkit-scrollbar {
-	width: 0;
+	width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: white;
 }
 
 @font-face {

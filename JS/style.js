@@ -31,3 +31,14 @@ function closeNavbar() {
     }
 }
 
+/*window.onscroll = function() {headerBackgroundScroll()};
+
+function headerBackgroundScroll() {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("navigationLinks").style.backgroundColor = "white";
+    } else {
+        document.getElementById("navigationLinks").style.backgroundColor = "none"
+    }
+}*/
+
+
