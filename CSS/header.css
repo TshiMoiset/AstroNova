@@ -76,6 +76,10 @@ header {
 	color: white;
 }
 
+.navigationLinks li {
+	list-style: none;
+}
+
 .navigationLinks ul {
 	display: flex;
 	justify-content: space-evenly;
