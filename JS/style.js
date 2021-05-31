@@ -31,14 +31,14 @@ function closeNavbar() {
     }
 }
 
-/*window.onscroll = function() {headerBackgroundScroll()};
+window.onscroll = function() {headerBackgroundScroll()};
 
 function headerBackgroundScroll() {
-    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-        document.getElementById("navigationLinks").style.backgroundColor = "white";
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        document.getElementById("navBar").style.backgroundColor = "#1c1c1c";
     } else {
-        document.getElementById("navigationLinks").style.backgroundColor = "none"
-    }
-}*/
+        document.getElementById("navBar").style.backgroundColor = "transparent"
+    }  
+}
 
 
