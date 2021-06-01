@@ -35,10 +35,14 @@ window.onscroll = function() {headerBackgroundScroll()};
 
 function headerBackgroundScroll() {
     if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-        document.getElementById("navBar").style.backgroundColor = "#1c1c1c";
+        document.getElementById("navBar").style.backgroundColor = "black";
+        /*document.getElementById("navBar").style.top = "-100%";*/
+        
     } else {
         document.getElementById("navBar").style.backgroundColor = "transparent"
+        /*document.getElementById("navBar").style.top = "0%"*/
     }  
+
 }
 
 

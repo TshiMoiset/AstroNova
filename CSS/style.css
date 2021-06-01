@@ -11,6 +11,10 @@ body {
 	scroll-behavior: smooth;
 }
 
+main {
+	background-color: green;
+}
+
 ::-webkit-scrollbar {
 	width: 2px;
 }
