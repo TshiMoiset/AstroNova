@@ -14,10 +14,6 @@ body {
 	background-size: cover;
 }
 
-main {
-	background-color: green;
-}
-
 ::-webkit-scrollbar {
 	width: 2px;
 }
@@ -30,16 +26,6 @@ main {
 /* Handle */
 ::-webkit-scrollbar-thumb {
 	background: white;
-}
-
-@font-face {
-	font-family: "Aquire";
-	src: url("../Font/Aquire-BW0ox.otf") format("woff");
-}
-
-@font-face {
-	font-family: "Aquire-Light";
-	src: url("../Font/AquireLight-YzE0o.otf") format("woff");
 }
 
 @font-face {
