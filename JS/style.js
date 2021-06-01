@@ -23,8 +23,6 @@ function closeNavbar() {
 
     if (x.matches) {
         document.getElementById("navButton").style.display = "flex";
-        
-        
     }
     else {
         document.getElementById("navButton").style.display = "none";
