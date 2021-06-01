@@ -35,9 +35,10 @@ window.onscroll = function () {
     let scrollDown = window.pageYOffset;
     if (scrollUp > scrollDown) {
         document.getElementById("navBar").style.top = "0";
-
+        
         if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
             document.getElementById("navBar").style.backgroundColor = "black";
+            document.getElementById("navBar").style.padding = "5px 0px";
             document.getElementById("screenLogo-NavButton").style.backgroundColor = "black";
             
         } else {

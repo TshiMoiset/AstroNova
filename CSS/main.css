@@ -1,0 +1,25 @@
+.heroImg {
+	padding: 0;
+	margin: 0;
+	min-height: 100vh;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.part1 {
+	background-image: url("/Earth/EarthIndex.jpg");
+}
+
+.part2 {
+	background-image: url("/Earth/LeavingEarth.jpg");
+}
+
+.part3 {
+	background-image: url("/Earth/SpcaecraftInSpace.jpg");
+}
+
+.part4 {
+	background-image: url("/Earth/SpacecraftOnTheMoon.jpg");
+}
