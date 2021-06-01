@@ -29,18 +29,25 @@ function closeNavbar() {
     }
 }
 
-window.onscroll = function() {headerBackgroundScroll()};
+let scrollUp = window.pageYOffset;
 
-function headerBackgroundScroll() {
-    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-        document.getElementById("navBar").style.backgroundColor = "black";
-        /*document.getElementById("navBar").style.top = "-100%";*/
-        
+window.onscroll = function () {
+    let scrollDown = window.pageYOffset;
+    if (scrollUp > scrollDown) {
+        document.getElementById("navBar").style.top = "0";
+
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            document.getElementById("navBar").style.backgroundColor = "black";
+            document.getElementById("screenLogo-NavButton").style.backgroundColor = "black";
+            
+        } else {
+            document.getElementById("navBar").style.backgroundColor = "transparent"
+            document.getElementById("screenLogo-NavButton").style.backgroundColor = "transparent";
+        }
+
     } else {
-        document.getElementById("navBar").style.backgroundColor = "transparent"
-        /*document.getElementById("navBar").style.top = "0%"*/
-    }  
+        document.getElementById("navBar").style.top = "-100px"
+    }
 
+    scrollUp = scrollDown;
 }
-
-

@@ -16,7 +16,7 @@ header {
 	position: fixed;
 	transition: 500ms;
 	width: 100%;
-	padding: 15px 0;
+	padding: 7px 0;
 }
 
 .logo a {
@@ -42,6 +42,7 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	width: 96%;
+	transition: 300ms;
 }
 
 .screenLogo-NavButton ul {
