@@ -12,6 +12,11 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	overflow-x: hidden;
+}
+
+main {
+	font-family: "Couture";
 }
 
 ::-webkit-scrollbar {
@@ -41,4 +46,9 @@ body {
 @font-face {
 	font-family: "Inertia";
 	src: url("../Font/Inertia.otf");
+}
+
+@font-face {
+	font-family: "Couture";
+	src: url("../Font/Couture-Bold\,otf");
 }
