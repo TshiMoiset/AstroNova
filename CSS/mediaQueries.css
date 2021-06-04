@@ -35,14 +35,6 @@
 	.screenLogo-NavButton {
 		width: 95%;
 	}
-
-	.part2 {
-		background-image: url("/Earth/LeavingSmallScreen.jpg");
-	}
-
-	.part3 {
-		background-image: url("/Earth/SpaceSmallScreen.jpg");
-	}
 }
 
 @media screen and (max-width: 426px) {

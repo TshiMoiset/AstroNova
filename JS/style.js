@@ -52,3 +52,15 @@ window.onscroll = function () {
 
     scrollUp = scrollDown;
 }
+
+/*----------- footer ---------------*/
+
+function openFooter() {
+    document.getElementById("closeFooter").style.display = "block";  // Knappen crossbutton kommer att visas.
+    document.getElementById("footer").style.display = "block";     // Innehållet i hamburgerNavbarLinks visas.
+    
+}
+
+function closeFooter() {
+    document.getElementById("footer").style.display = "none";
+}

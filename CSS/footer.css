@@ -1,0 +1,81 @@
+footer {
+	padding: 5px;
+	bottom: 0;
+	position: fixed;
+	background-color: black;
+	color: white;
+	left: 0;
+	width: 99%;
+	display: none;
+}
+
+.footerLogo {
+	font-size: 1.2rem;
+	font-family: "Inertia";
+	cursor: pointer;
+	transition: 500ms;
+	padding: 12px;
+}
+
+.footerContent {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+	transition: 300ms;
+}
+
+.footerContent a {
+	color: white;
+	transition: 300ms;
+	text-decoration: none;
+	font-family: "Beon";
+}
+
+.footerLeft {
+	display: flex;
+	align-items: center;
+	transition: 300ms;
+}
+
+.footerRight ul li {
+	display: inline;
+	margin: 0 20px;
+	transition: 500ms;
+}
+
+.footerBtn {
+	display: inline-block;
+	align-self: center;
+	padding: 8px;
+	border: 4px solid white;
+	border-width: 0 3px 3px 0;
+	position: absolute;
+	cursor: pointer;
+	top: 95%;
+	left: 48%;
+	transition: 300ms;
+}
+
+.up {
+	-webkit-transform: rotate(-135deg);
+	transform: rotate(-135deg);
+	transition: 500ms;
+}
+
+.arrowDown {
+	display: inline-block;
+	align-self: center;
+	padding: 8px;
+	border: 4px solid white;
+	border-width: 0 3px 3px 0;
+	position: absolute;
+	cursor: pointer;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	left: 50%;
+	bottom: 120%;
+	transition: 500ms;
+}
