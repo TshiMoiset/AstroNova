@@ -13,13 +13,14 @@ footer h3 {
 .footerDestinations {
 	display: flex;
 	justify-content: space-evenly;
+	z-index: 1900000;
 }
 
 .footerBtn {
 	writing-mode: vertical-lr;
 	font-size: 2rem;
 	color: white;
-	position: absolute;
+	position: fixed;
 	right: 6%;
 	bottom: 45px;
 	cursor: pointer;
@@ -44,11 +45,15 @@ footer h3 {
 	transform: rotate(360deg);
 }
 
+#realFooter {
+	display: none;
+}
+
 .realFooter {
-	display: flex;
+	display: none;
 	justify-content: space-between;
 	padding: 0.3em 10em;
-	background-color: green;
+	background-color: black;
 }
 
 .leftFooter {
@@ -65,8 +70,4 @@ footer h3 {
 .rightFooter a {
 	text-decoration: none;
 	color: white;
-}
-
-.footerLogo {
-	padding: 0 10px;
 }
