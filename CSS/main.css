@@ -1,17 +1,4 @@
-.heroImg {
-	min-height: 100vh;
-	width: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.heroImg {
-	/*display: flex;
-	justify-content: left;
-	align-items: center;
-	color: white;
-	font-size: larger;*/
+.heroImgText {
 	display: flex;
 }
 
@@ -23,14 +10,21 @@
 }
 
 .bottomText {
-	display: flex;
-	justify-content: space-evenly;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 	color: white;
+}
+
+.bottomText div {
+	display: inline-block;
+	margin: 0 20px;
+	align-items: center;
 }
 
 /*---------------- HeroImg Button -------------------*/
 
-.heroImg a {
+.heroImgText a {
 	position: relative;
 	display: inline-block;
 	padding: 15px 30px;
