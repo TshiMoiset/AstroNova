@@ -13,7 +13,6 @@ footer h3 {
 .footerDestinations {
 	display: flex;
 	justify-content: space-evenly;
-	z-index: 1900000;
 }
 
 .footerBtn {
@@ -32,28 +31,28 @@ footer h3 {
 }
 
 .closeFooter {
-	font-size: 1.8rem;
-	color: white;
-	position: absolute;
-	right: 6.6%;
-	bottom: 37px;
+	font-size: 1.5rem;
 	cursor: pointer;
-	transition: 300ms;
 }
 
 .closeFooter:hover {
-	transform: rotate(360deg);
+	color: #ccc;
 }
 
 #realFooter {
 	display: none;
+	transition: 300ms;
 }
 
 .realFooter {
 	display: none;
 	justify-content: space-between;
-	padding: 0.3em 10em;
+	padding: 4px;
 	background-color: black;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	transition: 300ms;
 }
 
 .leftFooter {
@@ -65,9 +64,11 @@ footer h3 {
 	display: inline-block;
 	margin: 0 25px;
 	padding: 0;
+	transition: 300ms;
 }
 
 .rightFooter a {
 	text-decoration: none;
 	color: white;
+	text-align: center;
 }

@@ -57,7 +57,6 @@ window.onscroll = function () {
 function openFooter() {
     document.getElementById("closeFooterBtn").style.display = "block";
     document.getElementById("realFooter").style.display = "flex";
-    document.getElementById("openFooterBtn").style.display = "none";
 }
 
 function closeFooter() {
