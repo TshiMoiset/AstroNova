@@ -27,6 +27,42 @@ footer h3 {
 }
 
 .footerBtn:hover {
-	color: #ccc;
 	transform: rotate(360deg);
+}
+
+.closeFooter {
+	font-size: 1.8rem;
+	color: white;
+	position: absolute;
+	right: 6.6%;
+	bottom: 37px;
+	cursor: pointer;
+	transition: 300ms;
+}
+
+.closeFooter:hover {
+	transform: rotate(360deg);
+}
+
+.realFooter {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.3em 10em;
+	background-color: green;
+}
+
+.leftFooter {
+	display: flex;
+	align-items: center;
+}
+
+.rightFooter ul li {
+	display: inline-block;
+	margin: 0 25px;
+	padding: 0;
+}
+
+.rightFooter a {
+	text-decoration: none;
+	color: white;
 }
