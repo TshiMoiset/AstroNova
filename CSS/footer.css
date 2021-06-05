@@ -66,3 +66,7 @@ footer h3 {
 	text-decoration: none;
 	color: white;
 }
+
+.footerLogo {
+	padding: 0 10px;
+}
