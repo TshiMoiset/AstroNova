@@ -39,6 +39,15 @@
 		transform: 500ms;
 	}
 
+	.realFooter {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.rightFooter ul {
+		padding: 0;
+	}
+
 	.footerBtn {
 		display: none;
 	}
