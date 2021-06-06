@@ -52,8 +52,16 @@
 		padding: 0;
 	}
 
+	.rightFooter {
+		text-align: center;
+	}
+
 	.footerBtn {
 		display: none;
+	}
+
+	.footerLogo {
+		padding: 5px;
 	}
 
 	.mediaQFooterBtn {
