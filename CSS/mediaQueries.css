@@ -39,6 +39,10 @@
 		transform: 500ms;
 	}
 
+	.footerText {
+		width: 50%;
+	}
+
 	.realFooter {
 		flex-direction: column;
 		align-items: center;

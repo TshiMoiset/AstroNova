@@ -26,8 +26,8 @@ footer h3 {
 	transition: 300ms;
 }
 
-.footerText {
-	width: 50%;
+.mediaQFooterBtn {
+	display: none;
 }
 
 .footerBtn:hover {
