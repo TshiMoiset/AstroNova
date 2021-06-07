@@ -75,6 +75,14 @@
 	.screenLogo-NavButton {
 		width: 95%;
 	}
+
+	.footerContent {
+		display: none;
+	}
+
+	.footerBtn2 {
+		display: flex;
+	}
 }
 
 @media screen and (max-width: 426px) {

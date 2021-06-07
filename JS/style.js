@@ -61,3 +61,11 @@ function openFooter() {
 function closeFooter() {
     document.getElementById("realFooter").style.bottom = "-100%";
 }
+
+function openFooter2() {
+    document.getElementById("realFooter2").style.display = "flex";
+}
+
+function closeFooter2() {
+    document.getElementById("realFooter2").style.display = "none";
+}
