@@ -16,13 +16,12 @@
 	width: 50%;
 }
 
-.indexHeroImage button {
-	padding: 20px 42px;
-	background-color: white;
-	border-style: none;
-	font-family: "Couture";
-	cursor: pointer;
-	outline: none;
+.indexHeroImage li {
+	list-style: none;
+}
+
+.indexHeroImage ul {
+	padding: 0;
 }
 
 .indexHeroImageButton {
@@ -35,25 +34,51 @@
 	background-color: white;
 	padding: 20px 42px;
 	transition: 500ms;
+	position: relative;
 }
 
-.indexHeroImage li {
-	list-style: none;
+.indexHeroImageButton a::before,
+.indexHeroImageButton a::after {
+  content: '';
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  transition: all .35s ease;
+  opacity: 0;
 }
 
-.indexHeroImage ul {
-	padding: 0;
+.indexHeroImageButton a::before {
+	content: '';
+	right: 0;
+	top: 0;
+	border-top: 3px solid white;
+	border-right: 3px solid white;
+	transform: translate(-100%, 50%);
 }
+
+.indexHeroImageButton a:after {
+	content: '';
+	left: 0;
+	bottom: 0;
+	border-bottom: 3px solid white;
+	border-left: 3px solid white;
+	transform: translate(100%, -50%)
+}
+
+.indexHeroImageButton a:hover:before,
+.indexHeroImageButton a:hover:after{
+	transform: translate(0,0);
+	opacity: 1;
+}
+
 
 .indexHeroImageButton a:hover {
 	color: white;
 	background-color: transparent;
-	border: 1px solid white;
 }
-
-
-
-
+  
+  
+  /*------------------*/
 
 
 
