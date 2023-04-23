@@ -71,8 +71,36 @@
 	opacity: 1;
 }
 
-
 .indexHeroImageButton a:hover {
 	color: white;
 	background-color: transparent;
 }
+
+.mainDestinations {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	padding: 25px;
+}
+
+.mainDestinations li {
+	list-style: none;
+}
+
+.mainDestinations ul {
+	padding: 0;
+}
+
+.mainDestinations a {
+	color: white;
+	text-decoration: none;
+}
+
+.destinationText {
+	padding: 10px;
+	border: 2px solid white;
+}
+
