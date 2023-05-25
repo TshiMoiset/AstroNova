@@ -1,106 +1,109 @@
 .indexHeroImage {
-	position: absolute;
-	top: 50%;
-	left: 37%;
-	transform: translate(-50%, -50%);
-	color: white;
+  position: absolute;
+  top: 50%;
+  left: 37%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
 .indexHeroImageQuote {
-	user-select: none;
-	font-size: xx-large;
-	letter-spacing: 1px;
+  user-select: none;
+  font-size: xx-large;
+  letter-spacing: 1px;
+  font-family: "Couture";
 }
 
 .indexHeroImageQuote p {
-	width: 50%;
+  width: 50%;
 }
 
 .indexHeroImage li {
-	list-style: none;
+  list-style: none;
 }
 
 .indexHeroImage ul {
-	padding: 0;
+  padding: 0;
 }
 
 .indexHeroImageButton {
-	font-size: smaller;
+  font-size: smaller;
+  font-family: "Couture";
 }
 
 .indexHeroImageButton a {
-	color: black;
-	text-decoration: none;
-	background-color: white;
-	padding: 20px 42px;
-	transition: 500ms;
-	position: relative;
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  padding: 20px 42px;
+  transition: 500ms;
+  position: relative;
 }
 
 .indexHeroImageButton a::before,
 .indexHeroImageButton a::after {
-  content: '';
+  content: "";
   height: 20px;
   width: 20px;
   position: absolute;
-  transition: all .35s ease;
+  transition: all 0.35s ease;
   opacity: 0;
 }
 
 .indexHeroImageButton a::before {
-	content: '';
-	right: 0;
-	top: 0;
-	border-top: 3px solid white;
-	border-right: 3px solid white;
-	transform: translate(-100%, 50%);
+  content: "";
+  right: 0;
+  top: 0;
+  border-top: 3px solid white;
+  border-right: 3px solid white;
+  transform: translate(-100%, 50%);
 }
 
 .indexHeroImageButton a:after {
-	content: '';
-	left: 0;
-	bottom: 0;
-	border-bottom: 3px solid white;
-	border-left: 3px solid white;
-	transform: translate(100%, -50%)
+  content: "";
+  left: 0;
+  bottom: 0;
+  border-bottom: 3px solid white;
+  border-left: 3px solid white;
+  transform: translate(100%, -50%);
 }
 
 .indexHeroImageButton a:hover:before,
 .indexHeroImageButton a:hover:after {
-	transform: translate(0,0);
-	opacity: 1;
+  transform: translate(0, 0);
+  opacity: 1;
 }
 
 .indexHeroImageButton a:hover {
-	color: white;
-	background-color: transparent;
+  color: white;
+
+  background-color: transparent;
 }
 
-.mainDestinations {
-	display: flex;
-	align-items: center;
-	justify-content: space-evenly;
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-	padding: 25px;
+/*----------------------------- Destinationer -------------------------------*/
+
+.mainDestinations h3 {
+  font-family: "Montserrat", sans-serif;
 }
 
 .mainDestinations li {
-	list-style: none;
+  list-style: none;
 }
 
 .mainDestinations ul {
-	padding: 0;
+  padding: 0;
+}
+
+.mainDestinations {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
 }
 
 .mainDestinations a {
-	color: white;
-	text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
-
-.destinationText {
-	padding: 10px;
-	border: 2px solid white;
-}
-

@@ -15,9 +15,9 @@ html {
 	overflow: hidden;
 }
 
-main {
+/*main {
 	font-family: "Couture";
-}
+}*/
 
 ::-webkit-scrollbar {
 	width: 2px;
@@ -52,6 +52,10 @@ main {
 	font-family: "Couture";
 	src: url("../Font/Couture-Bold\,otf");
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
+/* font-family: "Montserrat", sans-serif;*/
 
 /*background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)),
 		url("../Images/StarBackground1.jpg");*/
