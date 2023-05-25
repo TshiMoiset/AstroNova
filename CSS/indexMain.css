@@ -75,13 +75,13 @@
 
 .indexHeroImageButton a:hover {
   color: white;
-
   background-color: transparent;
 }
 
 /*----------------------------- Destinationer -------------------------------*/
 
 .mainDestinations h3 {
+  font-size: larger;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -90,7 +90,8 @@
 }
 
 .mainDestinations ul {
-  padding: 0;
+  padding: 0px;
+  margin: 15px;
 }
 
 .mainDestinations {
@@ -98,12 +99,51 @@
   align-items: center;
   justify-content: space-evenly;
   position: absolute;
-  bottom: 0;
+  padding: 30px 30px;
   width: 100%;
-  padding: 20px;
+  bottom: 0;
 }
 
-.mainDestinations a {
-  color: white;
+.destinationText {
+  position: relative;
+  transition: 500ms;
+}
+
+.destinationText a {
   text-decoration: none;
+  color: white;
+}
+
+.destinationText::before,
+.destinationText::after {
+  content: "";
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  transition: all 0.35s ease;
+  opacity: 0;
+}
+
+.destinationText::before {
+  content: "";
+  right: 0;
+  top: 0;
+  border-top: 3px solid white;
+  border-right: 3px solid white;
+  transform: translate(-100%, 50%);
+}
+
+.destinationText::after {
+  content: "";
+  left: 0;
+  bottom: 0;
+  border-bottom: 3px solid white;
+  border-left: 3px solid white;
+  transform: translate(100%, -50%);
+}
+
+.destinationText:hover::before,
+.destinationText:hover::after {
+  transform: translate(0, 0);
+  opacity: 1;
 }
