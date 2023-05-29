@@ -35,14 +35,15 @@ header {
 
 .screenLogo-NavButton {
 	display: none;
-	position: fixed;
 }
 
 .screenLogo-NavButton {
 	display: none;
 	justify-content: space-between;
 	align-items: center;
-	width: 96%;
+	box-sizing: border-box;
+	position: fixed;
+	width: 100%;
 	transition: 300ms;
 }
 
