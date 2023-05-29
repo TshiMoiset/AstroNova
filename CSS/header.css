@@ -35,14 +35,14 @@ header {
 
 .screenLogo-NavButton {
 	display: none;
+	position: fixed;
 }
 
 .screenLogo-NavButton {
 	display: none;
 	justify-content: space-between;
 	align-items: center;
-	box-sizing: border-box;
-	position: fixed;
+		box-sizing: border-box;
 	width: 100%;
 	transition: 300ms;
 }
@@ -78,6 +78,7 @@ header {
 	font-size: 1.25rem;
 	transition: 200ms;
 	color: white;
+		box-sizing: border-box;
 }
 
 .navigationLinks li {
