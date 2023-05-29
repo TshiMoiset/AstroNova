@@ -62,10 +62,10 @@ function closeFooter() {
     document.getElementById("realFooter").style.bottom = "-100%";
 }
 
-function openFooter2() {
-    document.getElementById("realFooter2").style.display = "flex";
+function openFooterDestinaiton() {
+  document.getElementById("footerDestination").style.display = "flex";
 }
 
-function closeFooter2() {
-    document.getElementById("realFooter2").style.display = "none";
+function closeFooterDestinaiton() {
+  document.getElementById("footerDestination").style.display = "none";
 }

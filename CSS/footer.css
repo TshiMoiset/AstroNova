@@ -1,13 +1,35 @@
 footer {
-	bottom: 0;
-	position: absolute;
-	color: white;
-	width: 100%;
-	transition: 500ms;
+  bottom: 0;
+  position: absolute;
+  color: white;
+  width: 100%;
+  transition: 500ms;
 }
 
 footer h3 {
-	font-family: "Couture";
+  font-family: "Couture";
+}
+
+.footerButton {
+  position: absolute;
+margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.lineButton {
+  width: 30%;
+  height: 13px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.footerDestination {
+  display: none;
 }
 
 /*
@@ -100,4 +122,4 @@ footer h3 {
 	bottom: 20px;
 	align-items: center;
 	width: 100%;
-}
+}*/
