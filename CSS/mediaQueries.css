@@ -25,10 +25,6 @@
 
 	.screenLogo-NavButton {
 		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		padding: 0px 15px;
-		width: 100%;
 	}
 
 	.mainDestinations, .indexHeroImage {
