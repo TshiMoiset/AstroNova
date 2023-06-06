@@ -1,8 +1,8 @@
 footer {
-  bottom: 0;
   position: absolute;
-  color: white;
   width: 100%;
+  bottom: 0;
+  color: white;
   transition: 500ms;
 }
 
@@ -10,26 +10,36 @@ footer h3 {
   font-family: "Couture";
 }
 
-.footerButton {
-  position: absolute;
-margin: 0 auto;
-  left: 0;
-  right: 0;
-  bottom: 0;
+.footerButtonContainer {
+  display: none;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  padding: 20px;
   width: 100%;
-  text-align: center;
+  bottom: 0;
+  box-sizing: border-box;
 }
 
-.lineButton {
-  width: 30%;
-  height: 13px;
+.hiddenButtonText {
+  user-select: none;
+  visibility: hidden;
+}
+
+.openFooterDestinationBtn button {
+  padding: 5px 100px 3px 100px;
+  border: 2px solid white;
   border-radius: 20px;
-  cursor: pointer;
   transition: 300ms;
+  cursor: pointer;
 }
 
 .footerDestination {
   display: none;
+}
+
+.openFooterDestinationBtn button:hover {
+  background-color: transparent;
 }
 
 /*

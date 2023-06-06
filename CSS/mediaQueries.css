@@ -1,37 +1,34 @@
 @media screen and (max-width: 769px) {
-	body {
-		overflow-x: hidden;
-	}
+  body {
+    overflow-x: hidden;
+  }
 
-	header {
-		padding: 0;
-	}
+  header {
+    padding: 0;
+  }
 
-	.navButton {
-		display: flex;
-	}
+  .navButton,
+  .screenLogo a,
+  .footerButtonContainer,
+  .screenLogo-NavButton {
+    display: flex;
+  }
 
-	.screenLogo a {
-		display: flex;
-	}
+  .navigationLinks,
+  .mainDestinations {
+    display: none;
+  }
 
-	.navigationLinks {
-		display: none;
-	}
+  .hamburgerNav {
+    border-left: white solid 1px;
+  }
 
-	.hamburgerNav {
-		border-left: white solid 1px;
-	}
+  .indexHeroImageQuote p {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.174);
+  }
 
-	.screenLogo-NavButton {
-		display: flex;
-	}
-
-	.mainDestinations, .indexHeroImage {
-		display: none;
-	}
-
-	/*
+  /*
 	.footerContent {
 		display: flex;
 		justify-content: space-evenly;
@@ -73,17 +70,14 @@
 }
 
 @media screen and (max-width: 541px) {
-
-
-	.footerContent {
+  /*.footerContent {
 		display: none;
 	}
 
 	.footerBtn2 {
 		display: flex;
-	}
+	}*/
 }
 
 @media screen and (max-width: 426px) {
-
 }
