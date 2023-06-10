@@ -125,7 +125,11 @@ footer h3 {
 	width: 100%;
 }
 
-.footerLine {
-	text-align: center;
-	width: 100%;
+.footerLogo {
+	font-family: "Inertia";
+}
+
+.footertText,
+.copyright {
+	font-family: "Montserrat", sans-serif;
 }
