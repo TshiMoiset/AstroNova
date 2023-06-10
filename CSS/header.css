@@ -16,8 +16,9 @@ header {
   position: fixed;
   transition: 500ms;
   width: 100%;
-  padding: 10px 0;
+  padding: 10px;
   z-index: 1;
+  box-sizing: border-box;
 }
 
 .logo a {
@@ -67,6 +68,10 @@ header {
   cursor: pointer;
   transition: 300ms;
   color: white;
+}
+
+.navigation {
+  box-sizing: border-box;
 }
 
 .navigationLinks ul {
