@@ -97,6 +97,7 @@ header {
   position: fixed;
   z-index: 1;
   background-color: black;
+  border-left: 1px solid white;
   top: 0%;
   right: 0%;
   width: 100%;

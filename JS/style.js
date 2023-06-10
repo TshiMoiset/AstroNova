@@ -29,10 +29,12 @@ function closeNavbar() {
   }
 }
 
-let scrollUp = window.pageYOffset;
+let scrollUp = window.scrollY;
+//let scrollUp = window.pageYOffset;
 
 window.onscroll = function () {
-  let scrollDown = window.pageYOffset;
+  //let scrollDown = window.pageYOffset;
+  let scrollDown = window.scrollY;
   if (scrollUp > scrollDown) {
     document.getElementById("navBar").style.top = "0";
 

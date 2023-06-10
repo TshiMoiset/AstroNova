@@ -1,83 +1,30 @@
 @media screen and (max-width: 769px) {
-  body {
-    overflow-x: hidden;
-  }
-
-  header {
-    padding: 0;
-  }
-
-  .navButton,
-  .screenLogo a,
-  .footerButtonContainer,
-  .screenLogo-NavButton {
-    display: flex;
-  }
-
-  .navigationLinks,
-  .mainDestinations {
-    display: none;
-  }
-
-  .hamburgerNav {
-    border-left: white solid 1px;
-  }
-
-  .indexHeroImageQuote p {
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.174);
-  }
-
-  /*
-	.footerContent {
-		display: flex;
-		justify-content: space-evenly;
-		align-items: center;
-		width: 100%;
-		transform: 500ms;
+	body {
+		overflow-x: hidden;
 	}
 
-	.footerText {
-		width: 50%;
-	}
-
-	.realFooter {
-		flex-direction: column;
-		align-items: center;
-	}
-
-	.rightFooter ul {
+	header {
 		padding: 0;
 	}
 
-	.rightFooter {
-		text-align: center;
-	}
-
-	.footerBtn {
-		display: none;
-	}
-
-	.footerLogo {
-		padding: 5px;
-	}
-
-	.mediaQFooterBtn {
-		display: block;
-		writing-mode: vertical-lr;
-		font-size: 2rem;
-	}*/
-}
-
-@media screen and (max-width: 541px) {
-  /*.footerContent {
-		display: none;
-	}
-
-	.footerBtn2 {
+	.navButton,
+	.screenLogo a,
+	.footerButtonContainer,
+	.screenLogo-NavButton {
 		display: flex;
-	}*/
+	}
+
+	.navigationLinks,
+	.mainDestinations {
+		display: none;
+	}
+
+	.indexHeroImageQuote p {
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.174);
+	}
 }
 
-@media screen and (max-width: 426px) {
-}
+@media screen and (max-width: 541px) {}
+
+@media screen and (max-width: 426px) {}
