@@ -43,15 +43,16 @@
 				<div class="hamburgerNavContent">
 					<ul>
 						<li><a href="#">Missions</a></li>
-						<hr>
+						<hr class="fullHR">
 						<li><a href="#">Launches</a></li>
-						<hr>
+						<hr class="fullHR">
 						<li><a href="#">Spacecrafts</a></li>
-						<hr>
+						<hr class="fullHR">
 						<li><a href="#">Goals</a></li>
-						<hr>
+						<hr class="fullHR">
 					</ul>
 				</div>
+
 			</div>
 		</div>
 	</header>
@@ -104,43 +105,77 @@
 		
 		<div class="footerButtonContainer">
 			<div class="hiddenButtonText">Hidden</div>
-			<div class="openFooterDestinationBtn" id="openFooterDestinationBtn" onclick="openFooterDestinaiton()"><button></button></div>
+			<div class="openFooterDestinationBtn" id="openFooterDestinationBtn" onclick="openFooterDestinaitonContainer()"><button></button></div>
 			<div class="hiddenButtonText">Hidden</div>
 		</div>
 
-		<div class="footerDestination" id="footerDestination">
-			<div class="footerDestinationContainer">
-				<div class="footerDestinationTop">
-					<div class="footerDestinationText">
-						<h3>Destination 1</h3>
-						<p>Experience the blue planet from space</p>
-					</div>
-					<div class="footerDestinationText">
-						<h3>Destination 2</h3>
-						<p>Travel through la lunar distance in an instant</p>
-					</div>
-					<div class="footerDestinationText">
-						<h3>Destination 3</h3>
-						<p>The red planet is waiting for us</p>
-					</div>
-				</div>
+		<div class="footerDestinationContainer" id="footerDestinationContainer">
 
-				<div class="footerDestinationBottom">
-					<div class="footerTextBottom">
-						<span class="footerLogo">Exonova</span>
-						<span class="copyright">&copy; 2021</span>
-					</div>
-					<div class="rightFooter2">
-						<ul>
-							<li><a href="#">Terms of Use</a></li>
-							<li><a href="#">Privacy Policy</a></li>
-							<li><a href="#">Media Inquiries</a></li>
-							<li><a href="#">Contact</a></li>
-							<li><a href="#">Career</a></li>
-							<li><a href="#"><div class="closeFooterDestinationBtn" id="closeFooterDestinationBtn" onclick="closeFooterDestinaiton()">&#10006;</div></a></li>
-						</ul>
-					</div>
+			<div class="footerDestinationText">
+				<ul>
+					<li>
+						<a href="#">
+							<h3>Destination 1</h3>
+							<p>Experience the blue planet from space</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="footerLine">
+				<hr class="halfHR">
+			</div>
+
+			<div class="footerDestinationText">
+				<ul>
+					<li>
+						<a href="#">
+							<h3>Destination 2</h3>
+							<p>Travel through la lunar distance in an instant</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="footerLine">
+				<hr class="halfHR">
+			</div>
+
+			<div class="footerDestinationText">
+				<ul>
+					<li>
+						<a href="#">
+							<h3>Destination 3</h3>
+							<p>The red planet is waiting for us</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="footerLine">
+				<hr class="halfHR">
+			</div>
+
+			<div class="footerDestinationBottom">
+				
+				<div class="footertText">
+					<ul>
+						<li><a href="#">Terms of Use</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Media Inquiries</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">Career</a></li>
+						<li><a href="#">Sign In</a></li>
+					</ul>
 				</div>
+				
+				<div class="footerLogoCopyright">
+					<span class="footerLogo">Exonova</span>
+					<span class="copyright">&copy; 2021</span>
+				</div>
+				
+				<div class="closeFooterDestinationBtn" id="closeFooterDestinationBtn" onclick="closeFooterDestinaitonContainer()">&#10006;</div>
+
 			</div>
 		</div>
 

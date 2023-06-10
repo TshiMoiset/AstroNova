@@ -1,135 +1,131 @@
 footer {
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  color: white;
-  transition: 500ms;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	transition: 500ms;
 }
 
 footer h3 {
-  font-family: "Couture";
+	font-family: "Couture";
 }
 
 .footerButtonContainer {
-  display: none;
-  align-items: center;
-  justify-content: space-evenly;
-  position: relative;
-  padding: 20px;
-  width: 100%;
-  bottom: 0;
-  box-sizing: border-box;
+	display: none;
+	align-items: center;
+	justify-content: space-evenly;
+	position: relative;
+	padding: 20px;
+	width: 100%;
+	bottom: 0;
+	box-sizing: border-box;
 }
 
 .hiddenButtonText {
-  user-select: none;
-  visibility: hidden;
+	user-select: none;
+	visibility: hidden;
 }
 
 .openFooterDestinationBtn button {
-  padding: 5px 100px 3px 100px;
-  border: 2px solid white;
-  border-radius: 20px;
-  transition: 300ms;
-  cursor: pointer;
-}
-
-.footerDestination {
-  display: none;
+	padding: 5px 100px 3px 100px;
+	border: 2px solid white;
+	border-radius: 20px;
+	transition: 300ms;
+	cursor: pointer;
 }
 
 .openFooterDestinationBtn button:hover {
-  background-color: transparent;
+	background-color: transparent;
 }
 
-/*
-.footerDestinations {
-	display: flex;
-	justify-content: space-evenly;
-}
-
-.footerBtn {
-	writing-mode: vertical-lr;
-	font-size: 2rem;
-	color: white;
-	position: absolute;
-	right: 6%;
-	bottom: 45px;
-	cursor: pointer;
-	transition: 300ms;
-}
-
-.mediaQFooterBtn {
+.footerDestinationContainer {
 	display: none;
-}
-
-.footerBtn:hover {
-	color: wheat;
-}
-
-.closeFooter {
-	font-size: 1.5rem;
-	cursor: pointer;
-}
-
-.closeFooter:hover {
-	color: #ccc;
-}
-
-.realFooter {
-	display: flex;
-	justify-content: space-between;
-	padding: 4px;
-	background-color: black;
-	position: absolute;
-	bottom: -100%;
-	width: 100%;
-	transition: 300ms;
-}
-
-.leftFooter {
-	display: flex;
-	align-items: center;
-}
-
-.rightFooter ul li {
-	display: inline-block;
-	margin: 0 25px;
-	padding: 0;
-	transition: 300ms;
-}
-
-.rightFooter a {
-	text-decoration: none;
-	color: white;
+	flex-direction: column;
 	text-align: center;
-}
-
-.footerLogo {
-	padding: 20px;
-}
-
-.realFooter2 {
-	display: none;
-	justify-content: center;
 	position: fixed;
 	z-index: 1;
-	background-color: black;
 	top: 0%;
 	right: 0%;
 	width: 100%;
 	height: 100%;
 	transition: 500ms;
+	background-color: rgba(0, 0, 0, 0.906);
 }
 
-.footerBtn2 {
-	display: none;
-	position: absolute;
-	font-size: 1.7rem;
-	writing-mode: vertical-lr;
-	transition: 300ms;
+.footerDestinationContainer li {
+	list-style: none;
+}
+
+.footerDestinationContainer a {
 	color: white;
-	bottom: 20px;
+	text-decoration: none;
+}
+
+.footerDestinationContainer ul {
+	padding: 20px 15px;
+}
+
+.footertText ul {
+	display: grid;
+	grid-template-columns: auto auto;
+	padding: 0px;
+	width: 100%;
+}
+
+.footertText li {
+	padding: 20px;
+	font-size: 16px;
+}
+
+.footertText a {
+	transition: 300ms;
+}
+
+.footertText a:hover {
+	color: rgba(201, 199, 199, 0.87);
+}
+
+.closeFooterDestinationBtn {
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	font-size: 25px;
+	margin: 10px;
+	padding: 5px;
+	left: 46%;
+	cursor: pointer;
+	color: white;
+	transition: 300ms;
+	user-select: none;
+}
+
+.closeFooterDestinationBtn:hover {
+	transform: rotate(-360deg);
+}
+
+.footerLogoCopyright {
+	color: white;
+	padding: 20px;
+	font-size: 16px;
+}
+
+.halfHR {
+	margin: 10px;
+	height: 2px;
+	border-width: 0;
+	border-style: solid;
+	background-color: white;
+	color: white;
+	width: 70%;
+}
+
+.footerLine {
+	display: flex;
+	flex-direction: column;
 	align-items: center;
 	width: 100%;
-}*/
+}
+
+.footerLine {
+	text-align: center;
+	width: 100%;
+}
